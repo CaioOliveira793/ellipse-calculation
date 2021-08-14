@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="src/css/style.css">
+	<link rel="stylesheet" href="src/css/canvas.css">
+	<script type="module" src="src/js/index.js"></script>
+	<title>Simulador do sistema solar</title>
+</head>
+<body>
+	<div id="ss-container">
+		<form id="ss-control" action="" method="post">
+			<label for="planet-name">Planet Name</label>
+			<input type="text" name="planetName" id="planet-name">
+		</form>
+		<canvas id="ss-canvas"></canvas>
+		<div id="ss-button-container">
+			<button id="ss-minus" class="ss-button"></button>
+			<button id="ss-pause" class="ss-button"></button>
+			<button id="ss-play" class="ss-button"></button>
+			<button id="ss-plus" class="ss-button"></button>
+		</div>
+	</div>
+</body>
+</html>

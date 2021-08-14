@@ -1,0 +1,24 @@
+#sun {
+	top: 500px;
+	left: 500px;
+
+	max-height: 500px;
+	max-width: 500px;
+}
+
+#earth {
+	/* top: 50px;
+	left: 120px; */
+	top: 100px;
+	left: 100px;
+
+	max-height: 100px;
+	max-width: 100px;
+}
+
+
+/* para a animação de rotação (giro no próprio eixo) */
+@keyframes rotation {
+	0% { transform:translate(-50%,-50%) rotate(0); }
+	100% { transform:translate(-50%,-50%) rotate(360deg); }
+}

@@ -1,0 +1,52 @@
+#ss-container {
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#ss-canvas {
+	border: 1px solid #777;
+	display: block;
+	margin: 10px auto 10px auto;
+}
+
+#ss-control {
+	display: block;
+	margin: 0px auto 10px auto;
+	box-shadow: 0px 4px 4px 0px #DDD;
+	border-radius: 3px;
+	padding: 5px 5px 5px 5px;
+	border: 2px solid #999;
+}
+
+#ss-button-container {
+	display: block;
+	margin: 10px auto 10px auto;
+	align-items: center;
+	text-align: center;
+}
+
+.ss-button {
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #999;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	margin: 0px 5px 0px 5px;
+	opacity: 0.7;
+	transition: 0.3s all linear;
+}
+
+.ss-button:hover {
+	box-shadow: 0px 2px 2px 0px #777;
+	opacity: 1;
+}
+
+#ss-play { background-image: url("./../../images/buttons/play.png"); }
+
+#ss-pause { background-image: url("./../../images/buttons/pause.png"); }
+
+#ss-minus { background-image: url("./../../images/buttons/minus.png"); }
+
+#ss-plus { background-image: url("./../../images/buttons/plus.png"); }
